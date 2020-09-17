@@ -1,0 +1,18 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white)
+
+}
+
+body {
+    font-family: var(--redHat);
+    color: var(--white);
+    margin: 0;
+    background-color: #1B2056;
+}
