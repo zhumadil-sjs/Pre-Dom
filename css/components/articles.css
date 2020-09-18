@@ -3,4 +3,5 @@
 }
 .articles__content {
     background: url('../../images/articles-1.png') center no-repeat;
+    width: 100%;
 }
