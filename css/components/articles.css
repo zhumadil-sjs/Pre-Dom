@@ -1,7 +1,8 @@
 .articles {
     height: 768px;
 }
-.articles__content {
-    background: url('../../images/articles-1.png') center no-repeat;
+.articles__item {
+    background-color: red;
     width: 100%;
+    box-sizing: border-box;
 }
