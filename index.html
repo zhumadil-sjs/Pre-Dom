@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device=width, initial-scale=1.0" />
     <title>Aiza&Ajara</title>
     <link rel="stylesheet" href="./css/index.css">
 </head>
+
 <body>
     <header class="header">
         <div class="container flex">
@@ -31,11 +33,20 @@
                 </nav>
                 <div class="header__auth auth flex">
                     <button class="auth__btn btn-gray">Log in</button>
-                    <button class="auth__btn btn-electrican">Sign Up</button>
+                    <button id="sign-up" class="auth__btn btn-electrican">Sign Up</button>
                 </div>
             </div>
         </div>
     </header>
+    <div class="modal">
+        <form class="modal__form" id="form">
+            <!-- <span class="form__modal"></span> -->
+            <label for=""><input type="text" placeholder="Введите свою фамилию"></label>
+            <label for=""><input type="text" placeholder="Введите свою почту"></label>
+            <label for=""><input type="text" placeholder="Придумайте свой пароль"></label>
+        </form>
+    </div>
+    
     <section class="hero">
         <div class="container h-100">
             <div class="hero__content row">
@@ -116,22 +127,23 @@
         </div>
     </section>
     <section class="articles">
-            <div class="container">
-                <div class="section-header flex">
-                    <h3 class="section-header__title">Recommended Articles</h3>
-                    <button class="btn-gray">Show all</button>
-                </div>
-                <div class="row flex">
-                 <div class="col-8">
+        <div class="container">
+            <div class="section-header flex">
+                <h3 class="section-header__title">Recommended Articles</h3>
+                <button class="btn-gray">Show all</button>
+            </div>
+            <div class="row flex">
+                <div class="col-8">
                     <a href="#" class="articles__item"> <img src="./images/articles-1.png" alt=""></a>
-                 </div>
-                </div>
-                 <div class="col-4">
-                     <a href="#" class="articles__item"> <img src="./images/articles-2.png" alt=""></a>
-                 </div>
                 </div>
             </div>
+            <div class="col-4">
+                <a href="#" class="articles__item"> <img src="./images/articles-2.png" alt=""></a>
+            </div>
+        </div>
+        </div>
         </div>
     </section>
+    <script src="./js/index.js"></script>
 </body>
 </html>
